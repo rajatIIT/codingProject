@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Coding Interview</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string-array
+        name="planets_array">
+        <item>Kruskals</item>
+        <item>Depth First Search</item>
+        <item>"Binary Tree"</item>
+        <item>"      BinarySearchTree.java"</item>
+        <item>"      TreeOperations.java"</item>
+        <item>"      Utilities.java"</item>
+        <item>"Bubble Sort"</item>
+        <item>"Insertion Sort"</item>
+        <item>"Longest Common Subsequence"</item>
+        <item>"Matrix Multiplication"</item>
+        <item>"Rod Cutting"</item>
+        <item>"Heap Sort"</item>
+        <item>"Dijkstra"</item>
+        <item>"     Simple Vertex"</item>
+        <item>"     Dijkstra Vertex"</item>
+        <item>"     Dijkstra Weight Comparator"</item>
+        <item>"Graph"</item>
+        <item>"     Simple Vertex"</item>
+        <item>"     Graph Vertex"</item>
+        <item>"     Graph Edge"</item>
+        <item>"     Graph Edge Comparator"</item>
+        <item>"     Graph Utilities"</item>
+        <item>"Merge Sort"</item>
+        <item>"     Example 1"</item>
+        <item>"     Example 2"</item>
+        <item>"     Sample Run"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+
+//            [3, 8, 18, 13, 7, 0, 5, 16, 19, 10]
+//            		Merge (0,4) and (5,9)
+//            		[3, 8, 18, 13, 7, 0, 5, 16, 19, 10]
+//            		Merge (0,2) and (3,4)
+//            		After first merge: [3, 8, 18, 13, 7, 0, 5, 16, 19, 10]
+//            		After second merge: [3, 8, 18, 7, 13, 0, 5, 16, 19, 10]
+//            		Pointer 1 small. Take 3
+//            		Pointer 2 small. Take 7
+//            		Pointer 1 small. Take 8
+//            		Pointer 2 small. Take 13
+//            		Exhaust 1
+//            		include 18
+//            		Combined Array: [3, 7, 8, 13, 18]
+//            		After first merge: [3, 7, 8, 13, 18, 0, 5, 16, 19, 10]
+//            		[3, 7, 8, 13, 18, 0, 5, 16, 19, 10]
+//            		Merge (5,7) and (8,9)
+//            		After first merge: [3, 7, 8, 13, 18, 0, 5, 16, 19, 10]
+//            		After second merge: [3, 7, 8, 13, 18, 0, 5, 16, 10, 19]
+//            		Pointer 1 small. Take 0
+//            		Pointer 1 small. Take 5
+//            		Pointer 2 small. Take 10
+//            		Pointer 1 small. Take 16
+//            		Exhaust 2
+//            		Combined Array: [0, 5, 10, 16, 19]
+//            		After second merge: [3, 7, 8, 13, 18, 0, 5, 10, 16, 19]
+//            		Pointer 2 small. Take 0
+//            		Pointer 1 small. Take 3
+//            		Pointer 2 small. Take 5
+//            		Pointer 1 small. Take 7
+//            		Pointer 1 small. Take 8
+//            		Pointer 2 small. Take 10
+//            		Pointer 1 small. Take 13
+//            		Pointer 2 small. Take 16
+//            		Pointer 1 small. Take 18
+//            		Exhaust 2
+//            		Combined Array: [0, 3, 5, 7, 8, 10, 13, 16, 18, 19]
+//            		After Sort: [0, 3, 5, 7, 8, 10, 13, 16, 18, 19]
